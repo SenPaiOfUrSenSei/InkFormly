@@ -1,0 +1,39 @@
+......F............                                                      [100%]
+=================================== FAILURES ===================================
+______ test_inconclusive_t_words_are_flagged_even_when_full_line_matches _______
+
+document = Document(version=1, backend='graves-epoch52', source_text='A test line', seed=42, bias=0.8, form_diversity=0, t_refine...zed-v1'), warnings=[], generation_seconds=0.1, pressure_source='simulated', quality_checks=True, consistent_style=True)
+
+    def test_inconclusive_t_words_are_flagged_even_when_full_line_matches(document):
+        from inkform.generator import GravesGenerator
+        line=document.lines[0];line.readback=compare_readback(line.text,line.text)
+        line.t_formation=dict(method='whole-line-word-clarity-v1',selected_words=None)
+        document.quality_checks=True
+        assert line_word_review(line)['status']=='review'
+        assert any('t-word checks' in warning for warning in GravesGenerator.quality_warnings(document))
+        line.t_formation['selected_words']=evidence(target=.6)
+>       assert line_word_review(line)['status']=='match'
+               ^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_word_clarity.py:132: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+line = Line(text='A test line', offsets=[(0.0, 0.0, 0), (2.0, 1.8701210007784155, 0), (2.0, 1.8409383880394288, 0), (2.0, 1.7...arget': False, 'nll': 0.8, 'exact': True}], 'target_words': 1, 'exact_words': 1, 'mean_nll': 0.6, 'context_nll': 0.8}})
+
+    def line_word_review(line):
+        """A compact UI result; do not confuse a full-line match with word proof."""
+        audit=line.t_formation or {}
+        if audit.get('method')!='whole-line-word-clarity-v1':
+            return None
+        evidence=audit.get('selected_words')
+        if evidence is None:
+            return dict(status='review',words=[],reason='Word boundaries could not be checked safely.')
+>       targets=[dict(word=w['word'],recognized_text=w['recognized_text'],exact=w['exact'])
+                                                     ^^^^^^^^^^^^^^^^^^^^
+                 for w in evidence['words'] if w['target']]
+E       KeyError: 'recognized_text'
+
+inkform/word_clarity.py:146: KeyError
+=========================== short test summary info ============================
+FAILED tests/test_word_clarity.py::test_inconclusive_t_words_are_flagged_even_when_full_line_matches
+1 failed, 18 passed in 1.75s

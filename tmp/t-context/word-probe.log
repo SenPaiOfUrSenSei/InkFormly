@@ -1,0 +1,11 @@
+Some weights of VisionEncoderDecoderModel were not initialized from the model checkpoint at /home/bifrost/Projects/InkFormly/models/trocr-small-handwritten and are newly initialized: ['encoder.pooler.dense.bias', 'encoder.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+`loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+0 [('My', 'NNVY', 6.0), ('notes', 'routes', 3.525), ('stayed', 'stayed', 0.802), ('neat.', 'new .', 4.134)]
+1 [('My', 'army', 4.647), ('notes', 'votes .', 1.592), ('stayed', 'stayed', 1.016), ('neat.', 'neat .', 4.249)]
+2 [('My', 'Mr. Try .', 4.081), ('notes', 'notes', 1.141), ('stayed', 'stayed', 1.217), ('neat.', 'next .', 4.892)]
+3 [('My', 'my', 2.911), ('notes', 'notes', 1.277), ('stayed', 's Fayed', 2.033), ('neat.', 'news .', 7.759)]
+4 [('My', 'rry', 4.525), ('notes', 'notes', 1.813), ('stayed', 'stayed', 0.852), ('neat.', 'next .', 4.977)]
+5 [('My', 'rry', 4.275), ('notes', 'notes', 1.815), ('stayed', 'stayed', 0.981), ('neat.', 'neat .', 4.276)]
+6 [('My', 'NY', 2.364), ('notes', 'notes', 1.947), ('stayed', 'stayed', 0.75), ('neat.', 'neat .', 3.41)]
+7 []

@@ -1,0 +1,4 @@
+Some weights of VisionEncoderDecoderModel were not initialized from the model checkpoint at /home/bifrost/Projects/InkFormly/models/trocr-small-handwritten and are newly initialized: ['encoder.pooler.dense.bias', 'encoder.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2 517 I rarely carry a paper map . [0.0, 0.0, 0.416, 0.0, 0.364]
+2 8436 I rarely carry a paper map . [0.0, 0.0, 0.66, 0.0, 0.7]

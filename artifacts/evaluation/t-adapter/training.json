@@ -1,0 +1,347 @@
+{
+  "seed": 91027,
+  "target": "lowercase t",
+  "parameters": 8473,
+  "train_references": [
+    {
+      "reference": 0,
+      "text": "thought that vengeance",
+      "selected_steps": 286,
+      "t_count": 4,
+      "capital_T_count": 0,
+      "final_attention_index": 22,
+      "text_length": 22,
+      "strokes_sha256": "4c6761c223bcebcf642d9658040d2d15cecc03970aa9fae0f7665c9f70961439"
+    },
+    {
+      "reference": 1,
+      "text": "So says the Times",
+      "selected_steps": 70,
+      "t_count": 1,
+      "capital_T_count": 1,
+      "final_attention_index": 17,
+      "text_length": 17,
+      "strokes_sha256": "08718f17a1380ddfa722d8f554e88f65fb9789dcd527830894136b854b49dd1e"
+    },
+    {
+      "reference": 3,
+      "text": "A stronger finish",
+      "selected_steps": 129,
+      "t_count": 1,
+      "capital_T_count": 0,
+      "final_attention_index": 17,
+      "text_length": 17,
+      "strokes_sha256": "b4f606447e3f757394c9d9f1fd8677b95efc84aef7f104ccd4af490174bd5659"
+    },
+    {
+      "reference": 5,
+      "text": "Aurelius Antonius about A.D",
+      "selected_steps": 206,
+      "t_count": 2,
+      "capital_T_count": 0,
+      "final_attention_index": 27,
+      "text_length": 27,
+      "strokes_sha256": "587fdaf5760a83d90caf932641c5103225acb1634d69db6d46a533ad234624e2"
+    },
+    {
+      "reference": 7,
+      "text": "I do not know of",
+      "selected_steps": 105,
+      "t_count": 1,
+      "capital_T_count": 0,
+      "final_attention_index": 16,
+      "text_length": 16,
+      "strokes_sha256": "dcadad48654f2637f5af0a2f69c50dee62d86a6311452694005904b983691e5d"
+    },
+    {
+      "reference": 9,
+      "text": "two-twenty carried, for him,",
+      "selected_steps": 277,
+      "t_count": 3,
+      "capital_T_count": 0,
+      "final_attention_index": 28,
+      "text_length": 28,
+      "strokes_sha256": "e869e643d2d45357f0440861da2dadf53d94be1195850a1da77d3c1f6b3bf8c6"
+    }
+  ],
+  "validation_references": [
+    {
+      "reference": 10,
+      "text": "\"Just you keep thinking",
+      "selected_steps": 167,
+      "t_count": 2,
+      "capital_T_count": 0,
+      "final_attention_index": 23,
+      "text_length": 23,
+      "strokes_sha256": "a2e6f6e46c2f2058e6e5a744d94ae41e259efefbd9150221975c8fcad9ae909e"
+    },
+    {
+      "reference": 11,
+      "text": "Royal family so often seems to find",
+      "selected_steps": 179,
+      "t_count": 2,
+      "capital_T_count": 0,
+      "final_attention_index": 35,
+      "text_length": 35,
+      "strokes_sha256": "a846c7f42454c48d9f6d5a160ea3107375a77f03522ec684477e2f9c8291e0fe"
+    },
+    {
+      "reference": 12,
+      "text": "tomorrow. How selfish of me. It",
+      "selected_steps": 96,
+      "t_count": 2,
+      "capital_T_count": 0,
+      "final_attention_index": 31,
+      "text_length": 31,
+      "strokes_sha256": "1ab786a52024c2c92bba5f37553a08ef5e87c77b4fbfc82f9361e3b284898d52"
+    }
+  ],
+  "baseline_validation_nll": -3.4704983234405518,
+  "best_validation_nll": -3.5053422451019287,
+  "best_epoch": 10,
+  "history": [
+    {
+      "epoch": 5,
+      "train_nll": -3.8407480716705322,
+      "validation_nll": -3.5006799697875977
+    },
+    {
+      "epoch": 10,
+      "train_nll": -3.865725517272949,
+      "validation_nll": -3.5053422451019287
+    },
+    {
+      "epoch": 15,
+      "train_nll": -3.8838443756103516,
+      "validation_nll": -3.495311975479126
+    },
+    {
+      "epoch": 20,
+      "train_nll": -3.895935535430908,
+      "validation_nll": -3.4869821071624756
+    },
+    {
+      "epoch": 25,
+      "train_nll": -3.9063796997070312,
+      "validation_nll": -3.490366220474243
+    },
+    {
+      "epoch": 30,
+      "train_nll": -3.9160099029541016,
+      "validation_nll": -3.5010509490966797
+    },
+    {
+      "epoch": 35,
+      "train_nll": -3.9255564212799072,
+      "validation_nll": -3.4997031688690186
+    },
+    {
+      "epoch": 40,
+      "train_nll": -3.936082601547241,
+      "validation_nll": -3.494901180267334
+    },
+    {
+      "epoch": 45,
+      "train_nll": -3.946930170059204,
+      "validation_nll": -3.4867429733276367
+    },
+    {
+      "epoch": 50,
+      "train_nll": -3.959171772003174,
+      "validation_nll": -3.485686779022217
+    },
+    {
+      "epoch": 55,
+      "train_nll": -3.971876382827759,
+      "validation_nll": -3.483225107192993
+    },
+    {
+      "epoch": 60,
+      "train_nll": -3.9853289127349854,
+      "validation_nll": -3.4753599166870117
+    },
+    {
+      "epoch": 65,
+      "train_nll": -3.9999091625213623,
+      "validation_nll": -3.4697883129119873
+    },
+    {
+      "epoch": 70,
+      "train_nll": -4.0156145095825195,
+      "validation_nll": -3.4664692878723145
+    },
+    {
+      "epoch": 75,
+      "train_nll": -4.032521724700928,
+      "validation_nll": -3.460867166519165
+    },
+    {
+      "epoch": 80,
+      "train_nll": -4.04824686050415,
+      "validation_nll": -3.4526565074920654
+    },
+    {
+      "epoch": 85,
+      "train_nll": -4.055123805999756,
+      "validation_nll": -3.419193983078003
+    },
+    {
+      "epoch": 90,
+      "train_nll": -4.044788360595703,
+      "validation_nll": -3.467844009399414
+    },
+    {
+      "epoch": 95,
+      "train_nll": -4.052676200866699,
+      "validation_nll": -3.4083755016326904
+    },
+    {
+      "epoch": 100,
+      "train_nll": -4.0790019035339355,
+      "validation_nll": -3.4350507259368896
+    },
+    {
+      "epoch": 105,
+      "train_nll": -4.0912981033325195,
+      "validation_nll": -3.4518916606903076
+    },
+    {
+      "epoch": 110,
+      "train_nll": -4.100925922393799,
+      "validation_nll": -3.4481680393218994
+    },
+    {
+      "epoch": 115,
+      "train_nll": -4.107571125030518,
+      "validation_nll": -3.4393227100372314
+    },
+    {
+      "epoch": 120,
+      "train_nll": -4.115470886230469,
+      "validation_nll": -3.4329679012298584
+    },
+    {
+      "epoch": 125,
+      "train_nll": -4.124194145202637,
+      "validation_nll": -3.4211089611053467
+    },
+    {
+      "epoch": 130,
+      "train_nll": -4.134255886077881,
+      "validation_nll": -3.423811912536621
+    },
+    {
+      "epoch": 135,
+      "train_nll": -4.1451096534729,
+      "validation_nll": -3.4052600860595703
+    },
+    {
+      "epoch": 140,
+      "train_nll": -4.156201362609863,
+      "validation_nll": -3.404099464416504
+    },
+    {
+      "epoch": 145,
+      "train_nll": -4.165256500244141,
+      "validation_nll": -3.4085872173309326
+    },
+    {
+      "epoch": 150,
+      "train_nll": -4.174313068389893,
+      "validation_nll": -3.3991925716400146
+    },
+    {
+      "epoch": 155,
+      "train_nll": -4.182974815368652,
+      "validation_nll": -3.378038167953491
+    },
+    {
+      "epoch": 160,
+      "train_nll": -4.190020561218262,
+      "validation_nll": -3.378204822540283
+    },
+    {
+      "epoch": 165,
+      "train_nll": -4.198274612426758,
+      "validation_nll": -3.386664628982544
+    },
+    {
+      "epoch": 170,
+      "train_nll": -4.205848217010498,
+      "validation_nll": -3.383012294769287
+    },
+    {
+      "epoch": 175,
+      "train_nll": -4.213194847106934,
+      "validation_nll": -3.3608286380767822
+    },
+    {
+      "epoch": 180,
+      "train_nll": -4.220459461212158,
+      "validation_nll": -3.3561041355133057
+    },
+    {
+      "epoch": 185,
+      "train_nll": -4.227663993835449,
+      "validation_nll": -3.3695156574249268
+    },
+    {
+      "epoch": 190,
+      "train_nll": -4.233884334564209,
+      "validation_nll": -3.363032817840576
+    },
+    {
+      "epoch": 195,
+      "train_nll": -4.241075038909912,
+      "validation_nll": -3.3386740684509277
+    },
+    {
+      "epoch": 200,
+      "train_nll": -4.248025417327881,
+      "validation_nll": -3.3332440853118896
+    },
+    {
+      "epoch": 205,
+      "train_nll": -4.254857540130615,
+      "validation_nll": -3.3458704948425293
+    },
+    {
+      "epoch": 210,
+      "train_nll": -4.261634826660156,
+      "validation_nll": -3.3385987281799316
+    },
+    {
+      "epoch": 215,
+      "train_nll": -4.268617630004883,
+      "validation_nll": -3.311603307723999
+    },
+    {
+      "epoch": 220,
+      "train_nll": -4.274308204650879,
+      "validation_nll": -3.3061635494232178
+    },
+    {
+      "epoch": 225,
+      "train_nll": -4.281168460845947,
+      "validation_nll": -3.3214070796966553
+    },
+    {
+      "epoch": 230,
+      "train_nll": -4.288704872131348,
+      "validation_nll": -3.314891815185547
+    },
+    {
+      "epoch": 235,
+      "train_nll": -4.295522212982178,
+      "validation_nll": -3.2875559329986572
+    },
+    {
+      "epoch": 240,
+      "train_nll": -4.300853252410889,
+      "validation_nll": -3.2835607528686523
+    }
+  ],
+  "checkpoint": "/home/bifrost/Projects/InkFormly/models/vasquez/t_adapter-experimental.pt",
+  "checkpoint_sha256": "10b6eb094a033c5b4ff5f544d0184bcbcfe86a3d95423f5b5e1175a147ba12b5",
+  "limitations": "Very small multi-writer reference set, mostly lowercase t. Reference-level held-out likelihood is not proof of legibility or writer consistency. Must pass independent synthesis comparisons before use."
+}

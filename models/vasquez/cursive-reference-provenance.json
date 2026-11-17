@@ -1,0 +1,22 @@
+[
+  {
+    "file": "style-6-chars.npy",
+    "sha256": "4cd82597dc4b15a3d166bc200e00f5b0a2aa2338d9a040b34b125cb05eed0643",
+    "url": "https://raw.githubusercontent.com/niccolodevries/svg-handwriting-generator/61544f003893c99cbcb9013b33d0a437bbe1ac6f/synth/styles/style-6-chars.npy"
+  },
+  {
+    "file": "style-6-strokes.npy",
+    "sha256": "61185929adef2212b2b726e083956b4a92274d353251692b94132e66a50d2503",
+    "url": "https://raw.githubusercontent.com/niccolodevries/svg-handwriting-generator/61544f003893c99cbcb9013b33d0a437bbe1ac6f/synth/styles/style-6-strokes.npy"
+  },
+  {
+    "file": "style-8-chars.npy",
+    "sha256": "15402ea600c8c311ca21fce8b4a48dde0ef297249a306529df0354946ba25422",
+    "url": "https://raw.githubusercontent.com/niccolodevries/svg-handwriting-generator/61544f003893c99cbcb9013b33d0a437bbe1ac6f/synth/styles/style-8-chars.npy"
+  },
+  {
+    "file": "style-8-strokes.npy",
+    "sha256": "6f0aa81c1cb3213c8f5ebf13c400cb8530629cebd9e7ef5c5c825f3ef7b8d0b5",
+    "url": "https://raw.githubusercontent.com/niccolodevries/svg-handwriting-generator/61544f003893c99cbcb9013b33d0a437bbe1ac6f/synth/styles/style-8-strokes.npy"
+  }
+]

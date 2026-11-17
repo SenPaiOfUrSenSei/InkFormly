@@ -1,0 +1,266 @@
+[
+  {
+    "text": "We met at the station.",
+    "strength": 0.0,
+    "readback": {
+      "status": "review",
+      "recognized_text": "Wernefat unew-childrened",
+      "edit_distance": 17,
+      "character_error_rate": 0.7727272727272727,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 4,
+      "effective_steps": 181.45175170898438,
+      "intended_nll": -4.734455108642578,
+      "confusion_nll": {
+        "l": -4.623040199279785,
+        "f": -4.692227363586426,
+        "i": -4.641965389251709
+      },
+      "margin": 0.042227745056152344
+    }
+  },
+  {
+    "text": "We met at the station.",
+    "strength": 1.0,
+    "readback": {
+      "status": "review",
+      "recognized_text": "Wennetettumwerenewidomycin",
+      "edit_distance": 18,
+      "character_error_rate": 0.8181818181818182,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 4,
+      "effective_steps": 290.4101867675781,
+      "intended_nll": -4.924074172973633,
+      "confusion_nll": {
+        "l": -4.857481479644775,
+        "f": -4.916594505310059,
+        "i": -4.858308792114258
+      },
+      "margin": 0.007479667663574219
+    }
+  },
+  {
+    "text": "Nothing matters until later.",
+    "strength": 0.0,
+    "readback": {
+      "status": "review",
+      "recognized_text": "Nothing-mothers until later .",
+      "edit_distance": 3,
+      "character_error_rate": 0.10714285714285714,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 5,
+      "effective_steps": 200.85289001464844,
+      "intended_nll": -4.821863651275635,
+      "confusion_nll": {
+        "l": -4.477792739868164,
+        "f": -4.4973883628845215,
+        "i": -4.3464436531066895
+      },
+      "margin": 0.3244752883911133
+    }
+  },
+  {
+    "text": "Nothing matters until later.",
+    "strength": 1.0,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Nothing matters until later .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 5,
+      "effective_steps": 213.41461181640625,
+      "intended_nll": -4.7710442543029785,
+      "confusion_nll": {
+        "l": -4.411984443664551,
+        "f": -4.636340141296387,
+        "i": -4.309152126312256
+      },
+      "margin": 0.1347041130065918
+    }
+  },
+  {
+    "text": "Write STATE in the notes.",
+    "strength": 0.0,
+    "readback": {
+      "status": "review",
+      "recognized_text": "WRVESATE in the votes .",
+      "edit_distance": 7,
+      "character_error_rate": 0.28,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 2,
+      "effective_steps": 78.4784927368164,
+      "intended_nll": -4.798264026641846,
+      "confusion_nll": {
+        "l": -4.506056785583496,
+        "f": -4.570941925048828,
+        "i": -4.279709339141846
+      },
+      "margin": 0.22732210159301758
+    }
+  },
+  {
+    "text": "Write STATE in the notes.",
+    "strength": 1.0,
+    "readback": {
+      "status": "review",
+      "recognized_text": "WRVEE STATE in the notes .",
+      "edit_distance": 4,
+      "character_error_rate": 0.16,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 2,
+      "effective_steps": 73.2562484741211,
+      "intended_nll": -4.81323766708374,
+      "confusion_nll": {
+        "l": -4.5912861824035645,
+        "f": -4.613039493560791,
+        "i": -4.23099946975708
+      },
+      "margin": 0.20019817352294922
+    }
+  },
+  {
+    "text": "My notes stayed neat.",
+    "strength": 0.0,
+    "readback": {
+      "status": "review",
+      "recognized_text": "My notes stayedrevelt",
+      "edit_distance": 5,
+      "character_error_rate": 0.23809523809523808,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 3,
+      "effective_steps": 139.00006103515625,
+      "intended_nll": -4.758083343505859,
+      "confusion_nll": {
+        "l": -4.497653007507324,
+        "f": -4.544146537780762,
+        "i": -4.36574125289917
+      },
+      "margin": 0.21393680572509766
+    }
+  },
+  {
+    "text": "My notes stayed neat.",
+    "strength": 1.0,
+    "readback": {
+      "status": "review",
+      "recognized_text": "My notes stayed next .",
+      "edit_distance": 1,
+      "character_error_rate": 0.047619047619047616,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 3,
+      "effective_steps": 136.77162170410156,
+      "intended_nll": -4.811347961425781,
+      "confusion_nll": {
+        "l": -4.476377010345459,
+        "f": -4.633817672729492,
+        "i": -4.258072853088379
+      },
+      "margin": 0.17753028869628906
+    }
+  },
+  {
+    "text": "He counted fifteen steps.",
+    "strength": 0.0,
+    "readback": {
+      "status": "match",
+      "recognized_text": "He counted fifteen steps .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 3,
+      "effective_steps": 127.73985290527344,
+      "intended_nll": -4.713514804840088,
+      "confusion_nll": {
+        "l": -4.3778395652771,
+        "f": -4.477727890014648,
+        "i": -4.258094310760498
+      },
+      "margin": 0.23578691482543945
+    }
+  },
+  {
+    "text": "He counted fifteen steps.",
+    "strength": 1.0,
+    "readback": {
+      "status": "match",
+      "recognized_text": "He counted fifteen steps .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 3,
+      "effective_steps": 118.70318603515625,
+      "intended_nll": -4.634812355041504,
+      "confusion_nll": {
+        "l": -4.28830623626709,
+        "f": -4.4222941398620605,
+        "i": -4.1533894538879395
+      },
+      "margin": 0.21251821517944336
+    }
+  },
+  {
+    "text": "A patient artist painted it.",
+    "strength": 0.0,
+    "readback": {
+      "status": "review",
+      "recognized_text": "A patenturtributively unre",
+      "edit_distance": 17,
+      "character_error_rate": 0.6071428571428571,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 6,
+      "effective_steps": 330.7645568847656,
+      "intended_nll": -4.890247344970703,
+      "confusion_nll": {
+        "l": -4.70438814163208,
+        "f": -4.714874744415283,
+        "i": -4.637839317321777
+      },
+      "margin": 0.17537260055541992
+    }
+  },
+  {
+    "text": "A patient artist painted it.",
+    "strength": 1.0,
+    "readback": {
+      "status": "review",
+      "recognized_text": "A patient artistpanteumers",
+      "edit_distance": 7,
+      "character_error_rate": 0.25,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 6,
+      "effective_steps": 266.89910888671875,
+      "intended_nll": -4.826836585998535,
+      "confusion_nll": {
+        "l": -4.5300068855285645,
+        "f": -4.692343235015869,
+        "i": -4.37570333480835
+      },
+      "margin": 0.13449335098266602
+    }
+  }
+]

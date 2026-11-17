@@ -1,0 +1,178 @@
+[
+  {
+    "text": "The little kitten sat quietly.",
+    "strength": 0.0,
+    "readback": {
+      "status": "review",
+      "recognized_text": "The littleted in sat quality",
+      "edit_distance": 11,
+      "character_error_rate": 0.36666666666666664,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 6,
+      "effective_steps": 216.51429748535156,
+      "intended_nll": -4.820127010345459,
+      "confusion_nll": {
+        "l": -4.494532108306885,
+        "f": -4.530252933502197,
+        "i": -4.328526020050049
+      },
+      "margin": 0.2898740768432617
+    }
+  },
+  {
+    "text": "The little kitten sat quietly.",
+    "strength": 1.0,
+    "readback": {
+      "status": "review",
+      "recognized_text": "The little letter . sat quietly :",
+      "edit_distance": 5,
+      "character_error_rate": 0.16666666666666666,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 6,
+      "effective_steps": 230.11624145507812,
+      "intended_nll": -4.803040981292725,
+      "confusion_nll": {
+        "l": -4.3791093826293945,
+        "f": -4.6213226318359375,
+        "i": -4.228823661804199
+      },
+      "margin": 0.1817183494567871
+    }
+  },
+  {
+    "text": "She wrote a better letter.",
+    "strength": 0.0,
+    "readback": {
+      "status": "match",
+      "recognized_text": "She wrote a better letter .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 5,
+      "effective_steps": 179.11476135253906,
+      "intended_nll": -4.7717156410217285,
+      "confusion_nll": {
+        "l": -4.237450122833252,
+        "f": -4.442260265350342,
+        "i": -4.026749610900879
+      },
+      "margin": 0.3294553756713867
+    }
+  },
+  {
+    "text": "She wrote a better letter.",
+    "strength": 1.0,
+    "readback": {
+      "status": "match",
+      "recognized_text": "She wrote a better letter .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 5,
+      "effective_steps": 193.39915466308594,
+      "intended_nll": -4.8038482666015625,
+      "confusion_nll": {
+        "l": -4.397048473358154,
+        "f": -4.5919036865234375,
+        "i": -4.331255912780762
+      },
+      "margin": 0.211944580078125
+    }
+  },
+  {
+    "text": "I thought about it.",
+    "strength": 0.0,
+    "readback": {
+      "status": "match",
+      "recognized_text": "I thought about it .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 3,
+      "effective_steps": 144.39845275878906,
+      "intended_nll": -4.670603275299072,
+      "confusion_nll": {
+        "l": -4.336724281311035,
+        "f": -4.497880458831787,
+        "i": -4.282375335693359
+      },
+      "margin": 0.17272281646728516
+    }
+  },
+  {
+    "text": "I thought about it.",
+    "strength": 1.0,
+    "readback": {
+      "status": "match",
+      "recognized_text": "I thought about it .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 3,
+      "effective_steps": 136.04959106445312,
+      "intended_nll": -4.739136695861816,
+      "confusion_nll": {
+        "l": -4.484402656555176,
+        "f": -4.59980583190918,
+        "i": -4.419389724731445
+      },
+      "margin": 0.13933086395263672
+    }
+  },
+  {
+    "text": "A SAT test starts at ten.",
+    "strength": 0.0,
+    "readback": {
+      "status": "review",
+      "recognized_text": "A BAT test starts at ten .",
+      "edit_distance": 1,
+      "character_error_rate": 0.04,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 4,
+      "effective_steps": 173.69854736328125,
+      "intended_nll": -4.715638637542725,
+      "confusion_nll": {
+        "l": -4.348217964172363,
+        "f": -4.48357629776001,
+        "i": -4.176120281219482
+      },
+      "margin": 0.23206233978271484
+    }
+  },
+  {
+    "text": "A SAT test starts at ten.",
+    "strength": 1.0,
+    "readback": {
+      "status": "match",
+      "recognized_text": "A SAT test starts at ten .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    },
+    "formation": {
+      "targets": 4,
+      "effective_steps": 176.6514129638672,
+      "intended_nll": -4.69565486907959,
+      "confusion_nll": {
+        "l": -4.410757541656494,
+        "f": -4.551460266113281,
+        "i": -4.283154010772705
+      },
+      "margin": 0.1441946029663086
+    }
+  }
+]

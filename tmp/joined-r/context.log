@@ -1,0 +1,11 @@
+baseline: The bright stars rose over the barn.
+Some weights of VisionEncoderDecoderModel were not initialized from the model checkpoint at /home/bifrost/Projects/InkFormly/models/trocr-small-handwritten and are newly initialized: ['encoder.pooler.dense.bias', 'encoder.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+checking: A friend walked around the river.
+A friend walked around the river. match [('around', False, 1)]
+checking: The hero returned with courage.
+The hero returned with courage. match []
+checking: I rarely carry a paper map.
+I rarely carry a paper map. match [('carry', False, 1)]
+checking: The bright stars rose over the barn.
+The bright stars rose over the barn. match [('bright', True, 1)]

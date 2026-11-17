@@ -1,0 +1,9 @@
+Some weights of VisionEncoderDecoderModel were not initialized from the model checkpoint at /home/bifrost/Projects/InkFormly/models/trocr-small-handwritten and are newly initialized: ['encoder.pooler.dense.bias', 'encoder.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+{"text": "We met at the station.", "changed": false, "extra_seconds": 4.402094355000372}
+{"text": "Nothing matters until later.", "changed": true, "extra_seconds": 24.03508062400033}
+{"text": "Write STATE in the notes.", "changed": false, "extra_seconds": 1.4812732390000747}
+{"text": "My notes stayed neat.", "changed": false, "extra_seconds": 13.938264497999626}
+{"text": "He counted fifteen steps.", "changed": false, "extra_seconds": 4.973242717000176}
+{"text": "A patient artist painted it.", "changed": true, "extra_seconds": 33.9604547859999}
+{"total": 6, "changed": 2, "baseline_exact": 4, "selected_exact": 4, "extra_seconds": 82.79041021900048}

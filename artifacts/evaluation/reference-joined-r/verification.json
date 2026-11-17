@@ -1,0 +1,108 @@
+{
+  "form_diversity": 0.5,
+  "verified_with": "Vasquez writer 2, wording checks and t checks enabled",
+  "lines": [
+    {
+      "text": "A friend walked around the river.",
+      "changed_words": [
+        "around"
+      ],
+      "before_readback": {
+        "status": "match",
+        "recognized_text": "A friend walked around the river .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "after_readback": {
+        "status": "match",
+        "recognized_text": "A friend walked around the river .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "changes": [
+        {
+          "word": "around",
+          "in_place": false
+        }
+      ],
+      "outside_paths_preserved": true
+    },
+    {
+      "text": "The hero returned with courage.",
+      "changed_words": [],
+      "before_readback": {
+        "status": "match",
+        "recognized_text": "The hero returned with courage .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "after_readback": {
+        "status": "match",
+        "recognized_text": "The hero returned with courage .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "changes": [],
+      "outside_paths_preserved": true
+    },
+    {
+      "text": "I rarely carry a paper map.",
+      "changed_words": [],
+      "before_readback": {
+        "status": "match",
+        "recognized_text": "I rarely carry a paper map .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "after_readback": {
+        "status": "match",
+        "recognized_text": "I rarely carry a paper map .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "changes": [],
+      "outside_paths_preserved": true
+    },
+    {
+      "text": "The bright stars rose over the barn.",
+      "changed_words": [
+        "bright"
+      ],
+      "before_readback": {
+        "status": "match",
+        "recognized_text": "The bright stars rose over the barn .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "after_readback": {
+        "status": "match",
+        "recognized_text": "The bright stars rose over the barn .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "changes": [
+        {
+          "word": "bright",
+          "in_place": true
+        }
+      ],
+      "outside_paths_preserved": true
+    }
+  ],
+  "tests_passed": 92,
+  "visual_review": "Checked the rendered words and sentence pairs. The fit was retained in around and bright and the other example words kept their original forms.",
+  "seeds": [
+    517,
+    1526,
+    2535,
+    329
+  ]
+}

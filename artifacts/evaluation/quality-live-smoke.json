@@ -1,0 +1,20 @@
+{
+  "base_url": "http://127.0.0.1:8000",
+  "model": "Vasquez \u00b7 writer 3",
+  "generation_id": "3f54cffe37d846ecaa026350afbace73",
+  "render_id": "bb033e55a7444f26907a2e357a2f2f48",
+  "export_id": "388b8f2c8981441994841d494080d00a",
+  "pages": 1,
+  "generation_seconds": 36.64802086200143,
+  "text_characters": 217,
+  "rewritten_line": 4,
+  "other_lines_preserved": true,
+  "readback_matches_before_rewrite": 4,
+  "review_lines_before_rewrite": [
+    4
+  ],
+  "trajectories_unchanged_after_ink_edit": true,
+  "trajectory_sha256": "6e2e205579096432a07e419bdc6d6c769ea160e3f56ac3a86ed5c9acfb45f3e3",
+  "pdf_bytes": 294769,
+  "png_zip_bytes": 290996
+}

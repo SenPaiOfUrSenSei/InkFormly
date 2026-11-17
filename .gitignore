@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+models/**/*.pt
+models/**/*.bin
+models/**/*.model
+models/**/*.npy
+models/**/*.download
+output/
+artifacts/evaluation/*-b*-s*.json
+*.egg-info/
+.coverage
+data/

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f6f4ee">
+  <title>InkForm — handwriting studio</title>
+  <link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="InkForm home"><span class="brand-mark">i<span>.</span></span> InkForm <span class="edition">STUDIO / 05</span></a>
+    <div class="local"><span class="status-dot"></span> Local handwriting studio <span class="divider">/</span> <span id="model-state">Checking model</span></div>
+  </header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">A LITTLE LESS PERFECT. A LITTLE MORE HUMAN.</p><h1>Give your words a hand.</h1><p class="subtitle">Learned handwriting. Your choice of ink. A page ready to print.</p></div><span class="intro-note">Made of movements,<br>not a typeface.<svg viewBox="0 0 85 28" aria-hidden="true"><path d="M3 10 Q30 30 72 9 M61 6 L74 9 L66 21"/></svg></span></section>
+    <div class="workspace">
+      <aside class="controls">
+        <nav class="tabs" aria-label="Studio controls"><button class="tab active" data-panel="compose">01 <span>Words</span></button><button class="tab" data-panel="ink">02 <span>Ink</span></button><button class="tab" data-panel="paper">03 <span>Paper</span></button></nav>
+        <section class="panel" id="panel-compose">
+          <div class="section-label"><h2>The words</h2><button class="text-button" id="load-example">Use example ↗</button></div>
+          <label class="sr-only" for="text">Text to write</label>
+          <textarea id="text" maxlength="4000" spellcheck="true" placeholder="A thought, a story, a whole project…">Natural handwriting has rhythm and variation. Every letter should feel a little different.
+
+Small details make a page feel personal: the space between words, the curve of a letter, and the way the ink meets the paper.</textarea>
+          <div class="text-meta"><span>Latin alphabet, numbers &amp; punctuation</span><span id="char-count"></span></div>
+          <div class="rule"></div>
+          <div class="section-label"><h2>The handwriting</h2><span class="small-tag">NEURAL</span></div>
+          <label class="field-label" for="form-diversity">Letter-form diversity <output id="form-diversity-value">50%</output></label>
+          <input id="form-diversity" type="range" min="0" max="1" step="0.05" value="0.5"><div class="range-ends"><span>Original sampler</span><span>More learned alternatives</span></div>
+          <p class="fine-note">Vary the model’s pen movements and joins with the same writer reference. Generate a new take to apply. Stronger settings can reduce readability.</p>
+          <label class="field-label" for="bias">Stroke restraint <output for="bias" id="bias-value">0.85</output></label>
+          <input id="bias" type="range" min="0.5" max="1.2" step="0.05" value="0.85"><div class="range-ends"><span>More variation</span><span>More restrained</span></div>
+          <p class="fine-note">Default writer: connected cursive (option A).</p>
+          <label class="check-field"><input id="consistent" type="checkbox" checked><span>Use a common style reference<small>Keep InkForm’s reference pen movements across lines and documents.</small></span></label>
+          <label class="check-field"><input id="quality" type="checkbox" checked><span>Double-check the wording<small>Read each line back and retry likely mistakes. Takes longer.</small></span></label>
+          <label class="check-field"><input id="t-refinement" type="checkbox" checked disabled><span>Clearer t and word flow<small>Check t words separately and compare complete takes. Keeps natural variation; takes longer.</small></span></label>
+          <label class="check-field"><input id="prefer-cursive-r" type="checkbox" disabled><span>Connected cursive r<small>Use an angled shoulder and a rising exit where the r can join cleanly. Requires wording checks and a common style reference.</small></span></label>
+          <div class="seed-row"><label for="seed">Take / seed</label><input id="seed" type="number" min="0" max="2147483647" value="42"><button id="new-take" class="icon-button" title="Choose a new random seed" aria-label="Choose a new random seed">↻</button></div>
+          <details class="reference"><summary>Bring a pen-trajectory reference</summary><p>Import a reference JSON exported by InkForm. Scanned images are not supported by this model.</p><input id="reference" type="file" accept="application/json,.json"><button class="text-button" id="clear-reference">Clear reference</button><span id="reference-state"></span></details>
+        </section>
+        <section class="panel" id="panel-ink" hidden>
+          <div class="section-label"><h2>Make your mark</h2><span class="small-tag">INK</span></div>
+          <p class="panel-note">Change the ink while keeping every letter and movement.</p>
+          <label class="field-label" for="color">Ink color <input id="color" type="color" value="#203f78"></label>
+          <div class="swatches"><button data-color="#203f78" style="--swatch:#203f78" aria-label="Blue ink"></button><button data-color="#22252b" style="--swatch:#22252b" aria-label="Black ink"></button><button data-color="#34594a" style="--swatch:#34594a" aria-label="Green ink"></button><button data-color="#7d3844" style="--swatch:#7d3844" aria-label="Burgundy ink"></button></div>
+          <label class="field-label" for="width">Pen width <output id="width-value">0.25 mm</output></label><input id="width" type="range" min="0.15" max="0.9" step="0.05" value="0.25">
+          <label class="field-label" for="opacity">Ink darkness <output id="opacity-value">95%</output></label><input id="opacity" type="range" min="0.15" max="1" step="0.05" value="0.95">
+          <label class="field-label" for="density-variation">Ink darkness variation <output id="density-variation-value">50%</output></label><input id="density-variation" type="range" min="0" max="1" step="0.05" value="0.5">
+          <label class="field-label" for="roughness">Ink roughness <output id="roughness-value">40%</output></label><input id="roughness" type="range" min="0" max="1" step="0.05" value="0.4">
+          <label class="field-label" for="pressure">Pressure variation <output id="pressure-value">45%</output></label><input id="pressure" type="range" min="0" max="1" step="0.05" value="0.45">
+          <label class="field-label" for="flow">Ink flow <output id="flow-value">80%</output></label><input id="flow" type="range" min="0.25" max="1" step="0.05" value="0.8">
+          <p class="fine-note">Pressure is simulated from stroke motion. The checkpoint generates pen positions and lifts.</p>
+        </section>
+        <section class="panel" id="panel-paper" hidden>
+          <div class="section-label"><h2>A place for your words</h2><span class="small-tag">A4</span></div>
+          <p class="panel-note">210 × 297 mm. Exports include a PDF and 300 dpi page images.</p>
+          <label class="field-label" for="paper">Paper</label><select id="paper"><option value="ruled">Soft blue rules</option><option value="plain">Plain white</option></select>
+          <label class="field-label" for="margin">Page margins <output id="margin-value">20 mm</output></label><input id="margin" type="range" min="10" max="40" step="1" value="20">
+          <label class="field-label" for="height">Writing height <output id="height-value">7.5 mm</output></label><input id="height" type="range" min="3" max="9" step="0.5" value="7.5">
+          <label class="field-label" for="spacing">Line spacing <output id="spacing-value">11.5 mm</output></label><input id="spacing" type="range" min="7" max="18" step="0.5" value="11.5">
+          <label class="check-field"><input id="fit-lines-individually" type="checkbox" disabled><span>Fit crowded lines individually<small>Keep other lines at your chosen writing size.</small></span></label>
+          <label class="field-label" for="variation-preset">Variation preset</label><select id="variation-preset" disabled><option value="custom">Custom</option></select>
+          <label class="field-label" for="slant-adjustment">Overall letter lean adjustment <output id="slant-adjustment-value">0°</output></label><input id="slant-adjustment" disabled type="range" min="-50" max="50" step="1" value="0"><div class="range-ends"><span>Less rightward lean</span><span>More rightward lean</span></div>
+          <p class="fine-note">Zero preserves the original lean. Keeps the learned joins and variation while adjusting letter lean across the page.</p>
+          <label class="field-label" for="naturalness">Relaxed layout <output id="naturalness-value">45%</output></label><input id="naturalness" type="range" min="0" max="1" step="0.05" value="0.45">
+          <p class="fine-note">Small shifts in line starts, spacing, slant and baseline. Lower values keep the page tidier.</p>
+          <label class="field-label" for="letter-variation">Letter variation <output id="letter-variation-value">55%</output></label><input id="letter-variation" type="range" min="0" max="1" step="0.05" value="0.55">
+          <p class="fine-note">Local changes in letter width, height and lean, keeping the same writer’s strokes.</p>
+          <details class="variation-group"><summary>Individual variation controls</summary>
+          <label class="field-label" for="width-variation">Letter width <output id="width-variation-value">50%</output></label><input id="width-variation" type="range" min="0" max="1" step="0.05" value="0.5">
+          <label class="field-label" for="height-variation">Letter height <output id="height-variation-value">50%</output></label><input id="height-variation" type="range" min="0" max="1" step="0.05" value="0.5">
+          <label class="field-label" for="slant-variation">Letter lean <output id="slant-variation-value">50%</output></label><input id="slant-variation" type="range" min="0" max="1" step="0.05" value="0.5">
+          <label class="field-label" for="rhythm-variation">Writing rhythm <output id="rhythm-variation-value">50%</output></label><input id="rhythm-variation" type="range" min="0" max="1" step="0.05" value="0.5">
+          <label class="field-label" for="word-spacing-variation">Word spacing <output id="word-spacing-variation-value">0%</output></label><input id="word-spacing-variation" type="range" min="0" max="1" step="0.05" value="0">
+          <label class="field-label" for="min-word-gap">Minimum detected word gap <output id="min-word-gap-value">0.0 mm</output></label><input id="min-word-gap" disabled type="range" min="0" max="2.5" step="0.1" value="0">
+          <p class="fine-note">Opens existing blank spaces. Joined words need a new take; fitting a long line may reduce gaps.</p>
+          <label class="field-label" for="line-start-variation">Line starts <output id="line-start-variation-value">50%</output></label><input id="line-start-variation" type="range" min="0" max="1" step="0.05" value="0.5">
+          <label class="field-label" for="line-end-variation">Line endings <output id="line-end-variation-value">0%</output></label><input id="line-end-variation" disabled type="range" min="0" max="1" step="0.05" value="0">
+          <label class="field-label" for="line-spacing-variation">Line spacing irregularity <output id="line-spacing-variation-value">50%</output></label><input id="line-spacing-variation" type="range" min="0" max="1" step="0.05" value="0.5">
+          <label class="field-label" for="line-tilt-variation">Line tilt <output id="line-tilt-variation-value">50%</output></label><input id="line-tilt-variation" type="range" min="0" max="1" step="0.05" value="0.5">
+          <label class="field-label" for="baseline-variation">Baseline drift <output id="baseline-variation-value">50%</output></label><input id="baseline-variation" type="range" min="0" max="1" step="0.05" value="0.5">
+          <label class="field-label" for="variation-seed">Variation seed</label><input id="variation-seed" type="number" min="0" max="2147483647" step="1" value="29">
+          <button id="shuffle-variations" class="secondary" type="button">Shuffle variations ↻</button>
+          <p class="fine-note">Apply to this take to try another set of variations with the same words and writer. Ink darkness variation is in the Ink tab.</p></details>
+          <p class="fine-note">A shared scale preserves proportions across the document. Changing margins after generation fits the existing lines; generate again to rewrap words.</p>
+        </section>
+        <div class="control-footer"><button class="primary" id="generate"><span>Generate handwriting</span><span aria-hidden="true">↗</span></button><button id="rerender" class="secondary" disabled>Apply ink &amp; paper to this take</button><p>Runs on your computer. Your words stay here.</p></div>
+      </aside>
+      <section class="preview-area" aria-label="Handwriting preview">
+        <div class="preview-toolbar"><div><span class="status-dot" id="preview-dot"></span><span id="preview-title">Your next blank page</span></div><div class="preview-actions"><button id="zoom" class="text-button" disabled>Zoom 100%</button><span>A4 / PORTRAIT</span></div></div>
+        <div class="page-stage" id="stage"><div class="empty-page" id="empty"><span class="corner-label">01 / START HERE</span><div class="empty-copy"><span class="pen-symbol">↝</span><h2>Every page begins<br>with a thought.</h2><p>Add your words, choose your ink,<br>and let the pen move.</p><span class="empty-line"></span></div><span class="page-footer">INKFORM &nbsp; / &nbsp; A SPACE FOR YOUR WORDS</span></div><div class="page-list" id="pages"></div></div>
+        <div class="progress-area" role="status" aria-live="polite"><div class="progress-copy"><span id="status">Ready when you are.</span><span id="metrics">PREVIEW · 120 DPI</span></div><progress id="progress" max="100" value="0" hidden></progress><p id="error" role="alert" hidden></p><p id="dirty" hidden>Settings changed. Apply ink &amp; paper, or generate a new take, before exporting.</p></div>
+        <div class="export-bar"><div><strong>A page worth keeping.</strong><span>Review the writing, then export at print quality.</span></div><button class="export-button" id="export" disabled>Prepare print files ↓</button></div>
+        <div id="downloads" class="downloads" hidden></div>
+        <details class="readback-panel" id="readback-panel" hidden><summary id="readback-summary">Compare the wording</summary><p class="panel-note">Automatic readback checks the base handwriting before variation controls are applied. The recognizer can infer a word even when a letter is badly shaped; review the final preview after changing variations.</p><div id="readback-lines"></div></details>
+        <details class="diagnostics" id="diagnostics" hidden><summary>About this generation</summary><ul id="warnings"></ul><a id="trajectory-download">Download pen trajectories ↗</a><a id="style-download">Save style reference ↗</a></details>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer"><span>INKFORM / WORDS IN MOTION</span><span>Pretrained pen trajectories. Independently rendered ink.</span></footer>
+</body>
+</html>

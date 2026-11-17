@@ -1,0 +1,7 @@
+{
+  "total": 16,
+  "changed": 2,
+  "limitations": "A reference-shaped geometric alternate, not trained weights. Inconclusive ownership, word reading or full-line reading retains original pen paths.",
+  "status": "rejected by user: words containing cursive r are not understandable",
+  "production_enabled": false
+}

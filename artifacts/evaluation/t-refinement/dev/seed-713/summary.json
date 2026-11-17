@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "exact_readbacks": 3,
+    "edit_distance": 4,
+    "seconds": 34.93678535000072
+  },
+  "refined": {
+    "exact_readbacks": 3,
+    "edit_distance": 4,
+    "seconds": 80.09271946399895
+  },
+  "total": 4,
+  "changed": 0,
+  "adapter_selected": 0,
+  "limitations": "Selection readback and self-model t contrast are not human-labeled legibility. Original checked output is retained unless both gates pass. Visually inspect the paired sheets."
+}

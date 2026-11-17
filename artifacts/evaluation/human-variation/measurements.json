@@ -1,0 +1,190 @@
+{
+  "source": "https://archive.ics.uci.edu/dataset/175/character%2Btrajectories",
+  "samples": 2858,
+  "writers": 1,
+  "seed": 73,
+  "letters": {
+    "a": {
+      "total": 171,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.18570551479071082,
+        0.39317633462246326,
+        0.6637881843029882
+      ]
+    },
+    "b": {
+      "total": 141,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.19076690673113897,
+        0.2975895719194698,
+        0.3907080523682083
+      ]
+    },
+    "c": {
+      "total": 142,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.0984883422141175,
+        0.16339868088127973,
+        0.27736711989771834
+      ]
+    },
+    "d": {
+      "total": 157,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.20448868008715432,
+        0.40753938070563434,
+        0.5926232296083791
+      ]
+    },
+    "e": {
+      "total": 186,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.1772358700999756,
+        0.34707146559463004,
+        0.4453083199117723
+      ]
+    },
+    "g": {
+      "total": 138,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.17227136065726745,
+        0.2404574755557586,
+        0.5217556971981814
+      ]
+    },
+    "h": {
+      "total": 127,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.24228497727880766,
+        0.3360916569348371,
+        0.6036413230695775
+      ]
+    },
+    "l": {
+      "total": 174,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.13340507847535227,
+        0.3251940705737364,
+        0.5698845466329464
+      ]
+    },
+    "m": {
+      "total": 125,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.2437707864904289,
+        0.36209634402026714,
+        0.5487823236062066
+      ]
+    },
+    "n": {
+      "total": 130,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.25527650907177674,
+        0.398573564636952,
+        0.7135265733992723
+      ]
+    },
+    "o": {
+      "total": 141,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.3039798527282244,
+        0.567670036465934,
+        0.8650698713395967
+      ]
+    },
+    "p": {
+      "total": 131,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.15255695452775409,
+        0.25688225639450013,
+        0.3928474574670488
+      ]
+    },
+    "q": {
+      "total": 124,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.17713588790889462,
+        0.30653449639352626,
+        0.5456001617327861
+      ]
+    },
+    "r": {
+      "total": 119,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.16845538945230967,
+        0.2773756776597909,
+        0.5439071100830333
+      ]
+    },
+    "s": {
+      "total": 133,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.14929657502531285,
+        0.21584681585570842,
+        0.3966047489954481
+      ]
+    },
+    "u": {
+      "total": 131,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.2641623037039327,
+        0.4178485815441444,
+        0.5898081127823027
+      ]
+    },
+    "v": {
+      "total": 155,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.13381283111088738,
+        0.3261177731799668,
+        0.6006714273194331
+      ]
+    },
+    "w": {
+      "total": 125,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.22251995010968073,
+        0.3919448461043903,
+        0.5789866956103826
+      ]
+    },
+    "y": {
+      "total": 137,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.14065617550332177,
+        0.23421748087136396,
+        0.37177281372422144
+      ]
+    },
+    "z": {
+      "total": 171,
+      "sampled_pairs": 30,
+      "similarity_aligned_rms_p10_p50_p90": [
+        0.21399775615270167,
+        0.312173403298758,
+        0.4583359178263733
+      ]
+    }
+  },
+  "method": "Integrate xy velocities after undoing per-axis normalization; resample 96 equal arc-length points, center/RMS normalize, pairwise similarity align. Residual includes proportion and shape variation.",
+  "limitations": "Isolated single-pen-down characters, smoothed and temporally shifted. Different writer from model primer. Not a cursive/coarticulation dataset or a calibration of neural temperature; no pressure inference or training."
+}

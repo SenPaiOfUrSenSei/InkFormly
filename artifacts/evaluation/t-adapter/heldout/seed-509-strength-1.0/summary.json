@@ -1,0 +1,13 @@
+{
+  "0.0": {
+    "completed": 6,
+    "exact_readbacks": 3,
+    "edit_distance_with_incomplete_penalty": 19
+  },
+  "1.0": {
+    "completed": 6,
+    "exact_readbacks": 0,
+    "edit_distance_with_incomplete_penalty": 53
+  },
+  "limitations": "Small fixed-writer probe; independent OCR is not character-shape validation. Inspect the saved raw trajectories and comparison sheets."
+}

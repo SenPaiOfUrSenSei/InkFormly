@@ -1,0 +1,14 @@
+{
+  "job": "29c4182b098845218ba2020083c17191",
+  "backend": "vasquez-17900-style2",
+  "form_diversity": 0.5,
+  "retained_diversity": 0.5,
+  "readback": {
+    "status": "match",
+    "recognized_text": "Little letters look a little different .",
+    "edit_distance": 0,
+    "character_error_rate": 0.0,
+    "numbers_match": true
+  },
+  "attention_complete": true
+}

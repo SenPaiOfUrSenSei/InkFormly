@@ -1,0 +1,242 @@
+[
+  {
+    "text": "A quiet visit",
+    "seed": 43,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "A quiet visit",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "A quiet visit",
+    "seed": 818,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "A quiet visit",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "Write it",
+    "seed": 43,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "write it",
+      "edit_distance": 1,
+      "character_error_rate": 0.125,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "Write it",
+    "seed": 818,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "write it",
+      "edit_distance": 1,
+      "character_error_rate": 0.125,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "Eric and Sarah rest",
+    "seed": 43,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Eric and Sarah rest",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "Eric and Sarah rest",
+    "seed": 818,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Eric and Sarah rest",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "A small red dot",
+    "seed": 43,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "A small red dot .",
+      "edit_distance": 1,
+      "character_error_rate": 0.06666666666666667,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "A small red dot",
+    "seed": 818,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "A small red dot .",
+      "edit_distance": 1,
+      "character_error_rate": 0.06666666666666667,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "Read this",
+    "seed": 43,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Read this",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "Read this",
+    "seed": 818,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Read this",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "Easy to see",
+    "seed": 43,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Easy to see",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "Easy to see",
+    "seed": 818,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "Easy to see .",
+      "edit_distance": 1,
+      "character_error_rate": 0.09090909090909091,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "We met at 1500",
+    "seed": 43,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "We met at 1500",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "We met at 1500",
+    "seed": 818,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "We met at 1 500",
+      "edit_distance": 1,
+      "character_error_rate": 0.07142857142857142,
+      "numbers_match": false
+    }
+  },
+  {
+    "text": "History lesson: 1947",
+    "seed": 43,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "History lesson : 1944",
+      "edit_distance": 1,
+      "character_error_rate": 0.05,
+      "numbers_match": false
+    }
+  },
+  {
+    "text": "History lesson: 1947",
+    "seed": 818,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "History lesson . 1947",
+      "edit_distance": 1,
+      "character_error_rate": 0.05,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "A pencil and a pen!",
+    "seed": 43,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "A pencil and a pen !",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "A pencil and a pen!",
+    "seed": 818,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "A pencil and a pen !",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "Meet me here,",
+    "seed": 43,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Meet me here ,",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "text": "Meet me here,",
+    "seed": 818,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Meet me here ,",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  }
+]

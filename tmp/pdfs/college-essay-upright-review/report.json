@@ -1,0 +1,108 @@
+{
+  "pages": 6,
+  "scale": 0.018433625695511848,
+  "fitted_to_width": false,
+  "median_height": 504.49256830848753,
+  "tallest": [
+    {
+      "line": 82,
+      "text": "holding them in my arms. I can't call",
+      "readback": {
+        "status": "match",
+        "recognized_text": "holding them in my arms . I can't call",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "height": 688.4014326371253,
+      "width": 5122.542032383848,
+      "seed": 1107138
+    },
+    {
+      "line": 21,
+      "text": "parking lot. My sisters and I named",
+      "readback": {
+        "status": "match",
+        "recognized_text": "parking lot . My sisters and I named",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "height": 678.4761059265584,
+      "width": 5229.474380844273,
+      "seed": 203075
+    },
+    {
+      "line": 4,
+      "text": "Spider-Man became \"piderma,\" villains",
+      "readback": {
+        "status": "review",
+        "recognized_text": "Spider-Man became \" piderma , \" villains",
+        "edit_distance": 2,
+        "character_error_rate": 0.05405405405405406,
+        "numbers_match": true
+      },
+      "height": 659.495852354914,
+      "width": 5345.5923429355025,
+      "seed": 101054
+    },
+    {
+      "line": 77,
+      "text": "puppies, named them, and hid them, yet",
+      "readback": {
+        "status": "match",
+        "recognized_text": "puppies , named them , and hid them , yet",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "height": 655.9291000375524,
+      "width": 5416.859031487256,
+      "seed": 1102093
+    },
+    {
+      "line": 1,
+      "text": "My first hero was missing half his body.",
+      "readback": {
+        "status": "match",
+        "recognized_text": "My first hero was missing half his body .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "height": 653.4257644657046,
+      "width": 5730.233862508088,
+      "seed": 42
+    }
+  ],
+  "review": [
+    {
+      "line": 4,
+      "text": "Spider-Man became \"piderma,\" villains",
+      "readback": {
+        "status": "review",
+        "recognized_text": "Spider-Man became \" piderma , \" villains",
+        "edit_distance": 2,
+        "character_error_rate": 0.05405405405405406,
+        "numbers_match": true
+      },
+      "height": 659.495852354914,
+      "width": 5345.5923429355025,
+      "seed": 101054
+    },
+    {
+      "line": 11,
+      "text": "\"A hero!\" To me, heroes were",
+      "readback": {
+        "status": "review",
+        "recognized_text": "\" A hero ! \" To me , heroes were",
+        "edit_distance": 2,
+        "character_error_rate": 0.07142857142857142,
+        "numbers_match": true
+      },
+      "height": 433.88954845815897,
+      "width": 4057.9891514629126,
+      "seed": 116036
+    }
+  ]
+}

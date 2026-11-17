@@ -1,0 +1,131 @@
+{
+  "baseline": {
+    "seconds_including_readback": 47.49743752700124,
+    "matching_lines": 2,
+    "total_lines": 8,
+    "ocr_edit_distance": 27,
+    "lines": [
+      {
+        "text": "The water cycle includes evaporation.",
+        "recognized": "The water cycle includes evaporation .",
+        "distance": 0,
+        "status": "match",
+        "candidates": 1
+      },
+      {
+        "text": "Plants use sunlight to make their food.",
+        "recognized": "Plants us sunlight to make their food ,",
+        "distance": 2,
+        "status": "review",
+        "candidates": 1
+      },
+      {
+        "text": "The experiment began on 15 July 2026.",
+        "recognized": "the experiment began on 16 July 2021",
+        "distance": 4,
+        "status": "review",
+        "candidates": 1
+      },
+      {
+        "text": "We recorded 25 samples over 7 days.",
+        "recognized": "vte icor fl ( is samples over 7 days ,",
+        "distance": 11,
+        "status": "review",
+        "candidates": 1
+      },
+      {
+        "text": "The result was 12.5 percent.",
+        "recognized": "The result was 12. Sperc.nt . I",
+        "distance": 5,
+        "status": "review",
+        "candidates": 2
+      },
+      {
+        "text": "Clean water supports every living organism.",
+        "recognized": "clean water supports every living organism .",
+        "distance": 1,
+        "status": "review",
+        "candidates": 2
+      },
+      {
+        "text": "Repeated letters occur in little and letter.",
+        "recognized": "Repeated letters occur in little and letter .",
+        "distance": 0,
+        "status": "match",
+        "candidates": 1
+      },
+      {
+        "text": "Conclusion: small changes can save water.",
+        "recognized": "Conclusion in small changes can save water ,",
+        "distance": 4,
+        "status": "review",
+        "candidates": 2
+      }
+    ]
+  },
+  "checked": {
+    "seconds_including_readback": 157.4097163130009,
+    "matching_lines": 4,
+    "total_lines": 8,
+    "ocr_edit_distance": 4,
+    "lines": [
+      {
+        "text": "The water cycle includes evaporation.",
+        "recognized": "The water cycle includes evaporation .",
+        "distance": 0,
+        "status": "match",
+        "candidates": 5
+      },
+      {
+        "text": "Plants use sunlight to make their food.",
+        "recognized": "Plants use sunlight to make their food .",
+        "distance": 0,
+        "status": "match",
+        "candidates": 1
+      },
+      {
+        "text": "The experiment began on 15 July 2026.",
+        "recognized": "The experiment began on 15 July 2026 ,",
+        "distance": 1,
+        "status": "review",
+        "candidates": 6
+      },
+      {
+        "text": "We recorded 25 samples over 7 days.",
+        "recognized": "We recorded 25 samples over # days .",
+        "distance": 1,
+        "status": "review",
+        "candidates": 6
+      },
+      {
+        "text": "The result was 12.5 percent.",
+        "recognized": "The result was 12.5 per cent .",
+        "distance": 1,
+        "status": "review",
+        "candidates": 6
+      },
+      {
+        "text": "Clean water supports every living organism.",
+        "recognized": "clean water supports every living organism .",
+        "distance": 1,
+        "status": "review",
+        "candidates": 6
+      },
+      {
+        "text": "Repeated letters occur in little and letter.",
+        "recognized": "Repeated letters occur in little and letter .",
+        "distance": 0,
+        "status": "match",
+        "candidates": 3
+      },
+      {
+        "text": "Conclusion: small changes can save water.",
+        "recognized": "Conclusion : small changes can save water .",
+        "distance": 0,
+        "status": "match",
+        "candidates": 3
+      }
+    ]
+  },
+  "limitation": "OCR disagreement measures a recognizer's reading, not guaranteed true transcription error. Checked samples were selected using this recognizer. Reused initial baselines compare full pipeline revisions, including the reference style."
+}

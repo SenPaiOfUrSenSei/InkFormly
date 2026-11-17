@@ -1,0 +1,17 @@
+{
+  "52": {
+    "completed": 12,
+    "total": 12,
+    "matching_readbacks": 7,
+    "ocr_edit_distance": 17,
+    "seconds": 41.88949273199978
+  },
+  "46": {
+    "completed": 11,
+    "total": 12,
+    "matching_readbacks": 5,
+    "ocr_edit_distance": 29,
+    "seconds": 44.849201189997984
+  },
+  "limitations": "Readback is not human-labeled accuracy. Inspect sheets for malformed letters even where OCR agrees. No manual substitutions or candidate selection used."
+}

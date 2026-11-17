@@ -1,0 +1,45 @@
+Some weights of VisionEncoderDecoderModel were not initialized from the model checkpoint at /home/bifrost/Projects/InkFormly/models/trocr-small-handwritten and are newly initialized: ['encoder.pooler.dense.bias', 'encoder.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Checked line 8/125
+Checked line 11/125
+Checked line 16/125
+Checked line 21/125
+Checked line 22/125
+Checked line 23/125
+Checked line 26/125
+Checked line 28/125
+Checked line 29/125
+Checked line 30/125
+Checked line 33/125
+Checked line 36/125
+Checked line 39/125
+Checked line 42/125
+Checked line 43/125
+Checked line 44/125
+Checked line 50/125
+Checked line 51/125
+Checked line 56/125
+Checked line 62/125
+Checked line 67/125
+Checked line 69/125
+Checked line 70/125
+Checked line 71/125
+Checked line 78/125
+Checked line 79/125
+Checked line 80/125
+Checked line 85/125
+Checked line 86/125
+Checked line 88/125
+Checked line 89/125
+Checked line 92/125
+Checked line 96/125
+Checked line 97/125
+Checked line 98/125
+Checked line 103/125
+Checked line 107/125
+Checked line 110/125
+Checked line 114/125
+Checked line 116/125
+Checked line 118/125
+Checked line 123/125
+{"pages": 7, "source_text_and_paragraphs_preserved": true, "writer_reference_preserved": true, "layout_settings_preserved": true, "changed_lines": 37, "raised_crossbars": 44, "matches_before": 92, "matches_after": 92, "visually_reviewed_pages": [], "pdf_sha256": "da7fc66dfcd9a3e3f12ed437690cb21a35afe198adfc667a4ae25751f31131be"}

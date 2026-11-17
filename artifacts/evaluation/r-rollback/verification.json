@@ -1,0 +1,33 @@
+{
+  "rows": [
+    {
+      "text": "A friend walked around the river.",
+      "seed": 517,
+      "exact_pre_experiment_trajectory": true,
+      "readback": {
+        "status": "match",
+        "recognized_text": "A friend walked around the river .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "r_formation": null
+    },
+    {
+      "text": "The hero returned with courage.",
+      "seed": 1526,
+      "exact_pre_experiment_trajectory": true,
+      "readback": {
+        "status": "match",
+        "recognized_text": "The hero returned with courage .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "r_formation": null
+    }
+  ],
+  "regression_tests_passed": 89,
+  "notes": "Exact native pre-experiment trajectories restored. OCR match is not a visual-legibility guarantee. No pretrained weights changed.",
+  "visual_review": "Inspected both restored native sentences; no reference-r deformation or moved neighbors. Requested photo-shaped r remains unresolved."
+}

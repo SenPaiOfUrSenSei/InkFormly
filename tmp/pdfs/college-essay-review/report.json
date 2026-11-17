@@ -1,0 +1,164 @@
+{
+  "pages": 4,
+  "scale": 0.012069166146050908,
+  "fitted_to_width": false,
+  "median_height": 639.5550015605986,
+  "tallest": [
+    {
+      "line": 35,
+      "text": "gutter. Something small and black lay there,",
+      "readback": {
+        "status": "match",
+        "recognized_text": "gutter . Something small and black lay there ,",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "height": 836.5005716197193,
+      "width": 8631.16188897565,
+      "seed": 404090
+    },
+    {
+      "line": 92,
+      "text": "say. I didn't know whether that would be enough.",
+      "readback": {
+        "status": "match",
+        "recognized_text": "say . I didn't know whether that would be enough .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "height": 832.6613648952916,
+      "width": 9742.621629193425,
+      "seed": 1407147
+    },
+    {
+      "line": 25,
+      "text": "puppies tumbled out, tails wagging, and I stayed",
+      "readback": {
+        "status": "match",
+        "recognized_text": "puppies tumbled out , tails wagging , and I stayed",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "height": 818.7983748251572,
+      "width": 9110.529366564006,
+      "seed": 210138
+    },
+    {
+      "line": 55,
+      "text": "picture eventually returned. Spider-Man would",
+      "readback": {
+        "status": "match",
+        "recognized_text": "picture eventually returned . Spider-Man would",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "height": 800.0735825141892,
+      "width": 8762.98882602714,
+      "seed": 910006
+    },
+    {
+      "line": 24,
+      "text": "though they seemed to love them anyway. The",
+      "readback": {
+        "status": "match",
+        "recognized_text": "though they seemed to love them anyway . The",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "height": 755.3138233944774,
+      "width": 9036.314489627257,
+      "seed": 209129
+    }
+  ],
+  "review": [
+    {
+      "line": 4,
+      "text": "became \"piderma,\" villains vanished off the edge",
+      "readback": {
+        "status": "review",
+        "recognized_text": "became \" piderma , \" Villains vanished off the edge",
+        "edit_distance": 3,
+        "character_error_rate": 0.0625,
+        "numbers_match": true
+      },
+      "height": 697.9981476981193,
+      "width": 9422.68127458822,
+      "seed": 108973
+    },
+    {
+      "line": 6,
+      "text": "dissolved into static. I watched with biryani",
+      "readback": {
+        "status": "review",
+        "recognized_text": "dissolved into static . I watched with biryan .",
+        "edit_distance": 1,
+        "character_error_rate": 0.022222222222222223,
+        "numbers_match": true
+      },
+      "height": 559.0763452169485,
+      "width": 8036.843375180382,
+      "seed": 126829
+    },
+    {
+      "line": 9,
+      "text": "be, I shouted, \"A hero!\" To me, heroes were",
+      "readback": {
+        "status": "review",
+        "recognized_text": "be , I shouted , \" A hero ! \" To me , heroes were",
+        "edit_distance": 2,
+        "character_error_rate": 0.046511627906976744,
+        "numbers_match": true
+      },
+      "height": 659.642845004797,
+      "width": 7629.756682537496,
+      "seed": 114018
+    },
+    {
+      "line": 53,
+      "text": "Then the power went out. I stared at the blank",
+      "readback": {
+        "status": "review",
+        "recognized_text": "Then the power went out . I starred at the blank",
+        "edit_distance": 1,
+        "character_error_rate": 0.021739130434782608,
+        "numbers_match": true
+      },
+      "height": 542.3501325659454,
+      "width": 8785.594013106078,
+      "seed": 900069
+    },
+    {
+      "line": 54,
+      "text": "screen. Whenever our Videocon went black, the",
+      "readback": {
+        "status": "review",
+        "recognized_text": "screen . Whenever our Videoson went black , the",
+        "edit_distance": 1,
+        "character_error_rate": 0.022222222222222223,
+        "numbers_match": true
+      },
+      "height": 606.9103909302503,
+      "width": 8993.423644834198,
+      "seed": 901078
+    },
+    {
+      "line": 63,
+      "text": "amounted to. We fed the puppies, named them, and",
+      "readback": {
+        "status": "review",
+        "recognized_text": "amounted to . We feel the puppies , named them , and",
+        "edit_distance": 2,
+        "character_error_rate": 0.041666666666666664,
+        "numbers_match": true
+      },
+      "height": 646.7317210463807,
+      "width": 9782.513184111565,
+      "seed": 1101084
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "seed": 517,
+  "form_diversity": 0.5,
+  "verified_with": "Vasquez writer 2, wording checks and t checks enabled",
+  "lines": [
+    {
+      "text": "A friend walked around the river.",
+      "changed_words": [
+        "around"
+      ],
+      "before_readback": {
+        "status": "match",
+        "recognized_text": "A friend walked around the river .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "after_readback": {
+        "status": "match",
+        "recognized_text": "A friend walked around the river .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "seconds": 30.7,
+      "other_pen_paths_preserved": true
+    },
+    {
+      "text": "The hero returned with courage.",
+      "changed_words": [
+        "hero"
+      ],
+      "before_readback": {
+        "status": "match",
+        "recognized_text": "The hero returned with courage .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "after_readback": {
+        "status": "match",
+        "recognized_text": "The hero returned with courage .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "seconds": 48.05,
+      "other_pen_paths_preserved": true
+    },
+    {
+      "text": "I rarely carry a paper map.",
+      "changed_words": [
+        "paper"
+      ],
+      "before_readback": {
+        "status": "match",
+        "recognized_text": "I rarely carry a paper map .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "after_readback": {
+        "status": "match",
+        "recognized_text": "I rarely carry a paper map .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      "seconds": 29.43,
+      "other_pen_paths_preserved": true
+    }
+  ],
+  "tests_passed": 91,
+  "visual_review": "Inspected all three paired sentences at a shared scale. Changes are subtle. The reference photo shoulder remains approximate."
+}

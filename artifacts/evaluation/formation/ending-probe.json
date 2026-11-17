@@ -1,0 +1,366 @@
+[
+  {
+    "factor": 2.0,
+    "text": "Every student studies science.",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Every student studies science .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 2.0,
+    "text": "Every student studies science.",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "Every student studies science",
+      "edit_distance": 1,
+      "character_error_rate": 0.03333333333333333,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 2.0,
+    "text": "Eric writes neatly in English.",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Eric writes neatly in English .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 2.0,
+    "text": "Eric writes neatly in English.",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Eric writes neatly in English .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 2.0,
+    "text": "Seven students sit beside Sarah.",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Seven students sit beside Sarah .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 2.0,
+    "text": "Seven students sit beside Sarah.",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Seven students sit beside Sarah .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 2.0,
+    "text": "A small seed starts to sprout.",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "A small seed starts to sprout .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 2.0,
+    "text": "A small seed starts to sprout.",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "A small seed starts to sprout .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 2.0,
+    "text": "SAT exams test reading and writing.",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "SAT exams test reading and writing .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 2.0,
+    "text": "SAT exams test reading and writing.",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "SAT exams test reading and writing .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 2.0,
+    "text": "This lesson ends at 1500 on Friday.",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "This lesson ends at 1500 on Friday .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 2.0,
+    "text": "This lesson ends at 1500 on Friday.",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "This lesson ends at 1nd on Friday .",
+      "edit_distance": 3,
+      "character_error_rate": 0.08571428571428572,
+      "numbers_match": false
+    }
+  },
+  {
+    "factor": 2.0,
+    "text": "on the sat :)",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "on the sat . )",
+      "edit_distance": 1,
+      "character_error_rate": 0.08333333333333333,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 2.0,
+    "text": "on the sat :)",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "on the sat it",
+      "edit_distance": 3,
+      "character_error_rate": 0.25,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "Every student studies science.",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Every student studies science .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "Every student studies science.",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "Every student studies science",
+      "edit_distance": 1,
+      "character_error_rate": 0.03333333333333333,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "Eric writes neatly in English.",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Eric writes neatly in English .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "Eric writes neatly in English.",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Eric writes neatly in English .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "Seven students sit beside Sarah.",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Seven students sit beside Sarah .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "Seven students sit beside Sarah.",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "Seven students sit beside Sarah .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "A small seed starts to sprout.",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "A small seed starts to sprout .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "A small seed starts to sprout.",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "A small seed starts to sprout .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "SAT exams test reading and writing.",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "SAT exams test reading and writing .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "SAT exams test reading and writing.",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "SAT exams test reading and writing .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "This lesson ends at 1500 on Friday.",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "match",
+      "recognized_text": "This lesson ends at 1500 on Friday .",
+      "edit_distance": 0,
+      "character_error_rate": 0.0,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "This lesson ends at 1500 on Friday.",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "This lesson ends at 1nd on Friday .",
+      "edit_distance": 3,
+      "character_error_rate": 0.08571428571428572,
+      "numbers_match": false
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "on the sat :)",
+    "seed": 42,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "on the sat . )",
+      "edit_distance": 1,
+      "character_error_rate": 0.08333333333333333,
+      "numbers_match": true
+    }
+  },
+  {
+    "factor": 4.0,
+    "text": "on the sat :)",
+    "seed": 817,
+    "complete": true,
+    "readback": {
+      "status": "review",
+      "recognized_text": "on the sat il",
+      "edit_distance": 3,
+      "character_error_rate": 0.25,
+      "numbers_match": true
+    }
+  }
+]

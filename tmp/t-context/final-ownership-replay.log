@@ -1,0 +1,10 @@
+Some weights of VisionEncoderDecoderModel were not initialized from the model checkpoint at /home/bifrost/Projects/InkFormly/models/trocr-small-handwritten and are newly initialized: ['encoder.pooler.dense.bias', 'encoder.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+1 kept 0 rejected 1
+8 kept 1 rejected 2
+11 kept 1 rejected 0
+30 kept 1 rejected 0
+34 kept 1 rejected 0
+43 kept 1 rejected 0
+56 kept 0 rejected 1
+67 kept 1 rejected 0

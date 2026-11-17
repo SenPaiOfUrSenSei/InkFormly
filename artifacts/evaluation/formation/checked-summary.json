@@ -1,0 +1,175 @@
+{
+  "backend": "vasquez-17900-style3",
+  "samples": [
+    {
+      "text": "student here,",
+      "seed": 42,
+      "chosen_seed": 42,
+      "attempts": 1,
+      "seconds": 4.774539499001548,
+      "readback": {
+        "status": "match",
+        "recognized_text": "student here ,",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      }
+    },
+    {
+      "text": "student here,",
+      "seed": 817,
+      "chosen_seed": 817,
+      "attempts": 1,
+      "seconds": 2.072550790002424,
+      "readback": {
+        "status": "match",
+        "recognized_text": "student here ,",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      }
+    },
+    {
+      "text": "Hey Eric! Former SAT masterclass student here,",
+      "seed": 42,
+      "chosen_seed": 42,
+      "attempts": 1,
+      "seconds": 3.5955590499979735,
+      "readback": {
+        "status": "match",
+        "recognized_text": "Hey Eric ! Former SAT masterclass student here ,",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      }
+    },
+    {
+      "text": "Hey Eric! Former SAT masterclass student here,",
+      "seed": 817,
+      "chosen_seed": 8736,
+      "attempts": 2,
+      "seconds": 7.0235613040022145,
+      "readback": {
+        "status": "match",
+        "recognized_text": "Hey Eric ! Former SAT masterclass student here ,",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      }
+    },
+    {
+      "text": "on the sat :)",
+      "seed": 42,
+      "chosen_seed": 7961,
+      "attempts": 2,
+      "seconds": 4.10089182399679,
+      "readback": {
+        "status": "match",
+        "recognized_text": "on the sat : )",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      }
+    },
+    {
+      "text": "on the sat :)",
+      "seed": 817,
+      "chosen_seed": 8736,
+      "attempts": 2,
+      "seconds": 3.9502004770001804,
+      "readback": {
+        "status": "match",
+        "recognized_text": "on the sat : )",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      }
+    },
+    {
+      "text": "Seven students sit beside Sarah.",
+      "seed": 42,
+      "chosen_seed": 42,
+      "attempts": 1,
+      "seconds": 3.1165638210004545,
+      "readback": {
+        "status": "match",
+        "recognized_text": "Seven students sit beside Sarah .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      }
+    },
+    {
+      "text": "Seven students sit beside Sarah.",
+      "seed": 817,
+      "chosen_seed": 817,
+      "attempts": 1,
+      "seconds": 2.975642011999298,
+      "readback": {
+        "status": "match",
+        "recognized_text": "Seven students sit beside Sarah .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      }
+    },
+    {
+      "text": "Every student studies science.",
+      "seed": 42,
+      "chosen_seed": 42,
+      "attempts": 1,
+      "seconds": 2.668511568001122,
+      "readback": {
+        "status": "match",
+        "recognized_text": "Every student studies science .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      }
+    },
+    {
+      "text": "Every student studies science.",
+      "seed": 817,
+      "chosen_seed": 40412,
+      "attempts": 6,
+      "seconds": 19.539934833999723,
+      "readback": {
+        "status": "match",
+        "recognized_text": "Every student studies science .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      }
+    },
+    {
+      "text": "This lesson ends at 1500 on Friday.",
+      "seed": 42,
+      "chosen_seed": 42,
+      "attempts": 1,
+      "seconds": 3.276973210999131,
+      "readback": {
+        "status": "match",
+        "recognized_text": "This lesson ends at 1500 on Friday .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      }
+    },
+    {
+      "text": "This lesson ends at 1500 on Friday.",
+      "seed": 817,
+      "chosen_seed": 40412,
+      "attempts": 6,
+      "seconds": 19.037593573000777,
+      "readback": {
+        "status": "match",
+        "recognized_text": "This lesson ends at 1500 on Friday .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      }
+    }
+  ],
+  "readback_matches": 12,
+  "limitations": "Same OCR used for selection and scoring; visually inspect shapes. No training, manual glyphs, or per-word overrides."
+}

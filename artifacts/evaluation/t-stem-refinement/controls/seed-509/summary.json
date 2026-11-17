@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "exact_readbacks": 2,
+    "edit_distance": 3,
+    "seconds": 22.085501726000075
+  },
+  "refined": {
+    "exact_readbacks": 2,
+    "edit_distance": 3,
+    "seconds": 22.085501726000075
+  },
+  "total": 3,
+  "changed": 0,
+  "adapter_selected": 0,
+  "limitations": "Attention-guided geometric correction, not weight training. Changed stems require an existing crossbar and non-worsening readback. OCR is not human-labeled legibility; visually inspect the paired sheets."
+}

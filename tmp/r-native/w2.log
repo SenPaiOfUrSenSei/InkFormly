@@ -1,0 +1,11 @@
+Some weights of VisionEncoderDecoderModel were not initialized from the model checkpoint at /home/bifrost/Projects/InkFormly/models/trocr-small-handwritten and are newly initialized: ['encoder.pooler.dense.bias', 'encoder.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+courage. ownership True baseline [0.]
+courage. candidate scores [(1.067, 77745028), (0.469, 78373402), (0.446, 78582860), (0.492, 78687589)]
+courage. word evidence {'recognized_text': 'courage .', 'nll': 0.004939021542668343} {'recognized_text': 'coverage .', 'nll': 1.3669041395187378}
+courage. selected 78687589 [0.492]
+returned ownership True baseline [0.   0.37]
+returned candidate scores []
+hero ownership True baseline [0.]
+hero candidate scores [(0.559, 31287439), (0.49, 31496897), (0.481, 31601626), (0.633, 31811084), (0.589, 31915813), (0.54, 32020542), (0.58, 32125271), (0.519, 32334729), (0.528, 32439458), (0.504, 32648916)]
+hero selected 31811084 [0.633]

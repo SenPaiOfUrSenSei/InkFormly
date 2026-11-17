@@ -1,0 +1,386 @@
+{
+  "pdf": "/home/bifrost/Projects/InkFormly/output/pdf/DraftCollegeEssay2-handwritten-reformed.pdf",
+  "manifest": {
+    "pages": 6,
+    "dpi": 300,
+    "pdf": "inkform.pdf",
+    "png": [
+      "page-001.png",
+      "page-002.png",
+      "page-003.png",
+      "page-004.png",
+      "page-005.png",
+      "page-006.png"
+    ],
+    "fitted_to_width": true
+  },
+  "report": {
+    "source": "/home/bifrost/Downloads/DraftCollegeEssay2.pdf",
+    "source_words": 650,
+    "paragraphs": 17,
+    "form_diversity": 0.5,
+    "written_lines": 106,
+    "readback_matches": 74,
+    "review": [
+      {
+        "line": 3,
+        "text": "On our old fourteen-inch Videocon,",
+        "readback": {
+          "status": "review",
+          "recognized_text": "on our old fourteen-inch Nideocon ,",
+          "edit_distance": 2,
+          "character_error_rate": 0.058823529411764705,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 4,
+        "text": "Spider-Man became \"piderma,\" villains",
+        "readback": {
+          "status": "review",
+          "recognized_text": "Spider-Man became \" piderma , \" villains",
+          "edit_distance": 2,
+          "character_error_rate": 0.05405405405405406,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 5,
+        "text": "vanished off the edge of the screen,",
+        "readback": {
+          "status": "review",
+          "recognized_text": "varnished off the edge of the screen ,",
+          "edit_distance": 1,
+          "character_error_rate": 0.027777777777777776,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 7,
+        "text": "into static. I watched with biryani",
+        "readback": {
+          "status": "review",
+          "recognized_text": "into static . I watched with beyond",
+          "edit_distance": 4,
+          "character_error_rate": 0.11428571428571428,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 11,
+        "text": "\"A hero!\" To me, heroes were",
+        "readback": {
+          "status": "review",
+          "recognized_text": "\" A hero ! \" To me , heroes were",
+          "edit_distance": 2,
+          "character_error_rate": 0.07142857142857142,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 18,
+        "text": "My first chance to play hero came not",
+        "readback": {
+          "status": "review",
+          "recognized_text": "My first chance to play here came not",
+          "edit_distance": 1,
+          "character_error_rate": 0.02702702702702703,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 22,
+        "text": "them Blacky, Oreo, and Pie. We hid",
+        "readback": {
+          "status": "review",
+          "recognized_text": "them-blackey , Oreo , and Pie . We had",
+          "edit_distance": 4,
+          "character_error_rate": 0.11764705882352941,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 26,
+        "text": "brought milk and chapatis from home.",
+        "readback": {
+          "status": "review",
+          "recognized_text": "brought-milk and chapatis from home .",
+          "edit_distance": 1,
+          "character_error_rate": 0.027777777777777776,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 27,
+        "text": "Once, I even cooked the chapatis",
+        "readback": {
+          "status": "review",
+          "recognized_text": "Once , I even cooked the chapats",
+          "edit_distance": 1,
+          "character_error_rate": 0.03125,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 28,
+        "text": "myself - burnt at the edges and stiff",
+        "readback": {
+          "status": "review",
+          "recognized_text": "myself - burnt at the edges and stiff .",
+          "edit_distance": 1,
+          "character_error_rate": 0.02702702702702703,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 30,
+        "text": "love them anyway. The puppies tumbled",
+        "readback": {
+          "status": "review",
+          "recognized_text": "love them anyway . The puppies stumbled",
+          "edit_distance": 1,
+          "character_error_rate": 0.02702702702702703,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 32,
+        "text": "my mother called me upstairs.",
+        "readback": {
+          "status": "review",
+          "recognized_text": "my mother called me upstairs",
+          "edit_distance": 1,
+          "character_error_rate": 0.034482758620689655,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 42,
+        "text": "sneaked downstairs and followed it to",
+        "readback": {
+          "status": "review",
+          "recognized_text": "sneaked downstars and followed it to",
+          "edit_distance": 1,
+          "character_error_rate": 0.02702702702702703,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 49,
+        "text": "The next morning, a rescue van came",
+        "readback": {
+          "status": "review",
+          "recognized_text": "The next morning a rescue van came",
+          "edit_distance": 1,
+          "character_error_rate": 0.02857142857142857,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 50,
+        "text": "for Blacky's body. Soon, it returned",
+        "readback": {
+          "status": "review",
+          "recognized_text": "for Blacky's body Soon , it returned",
+          "edit_distance": 1,
+          "character_error_rate": 0.027777777777777776,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 51,
+        "text": "for Oreo's. Within a month, Pie was",
+        "readback": {
+          "status": "review",
+          "recognized_text": "for creals . Within a month , Pie was",
+          "edit_distance": 3,
+          "character_error_rate": 0.08571428571428572,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 56,
+        "text": "Videocon, hoping to distract me.",
+        "readback": {
+          "status": "review",
+          "recognized_text": "N'deocon , hoping to distract me .",
+          "edit_distance": 2,
+          "character_error_rate": 0.0625,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 60,
+        "text": "he loved. Yet he kept running toward",
+        "readback": {
+          "status": "review",
+          "recognized_text": "he loved . Yet he keptrunning toward",
+          "edit_distance": 1,
+          "character_error_rate": 0.027777777777777776,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 70,
+        "text": "eventually returned. Spider-Man would",
+        "readback": {
+          "status": "review",
+          "recognized_text": "eventually returned . Spider-Mand would",
+          "edit_distance": 1,
+          "character_error_rate": 0.02702702702702703,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 71,
+        "text": "swing back into view, and his story",
+        "readback": {
+          "status": "review",
+          "recognized_text": "sung back into view , and his story",
+          "edit_distance": 2,
+          "character_error_rate": 0.05714285714285714,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 79,
+        "text": "puppies, named them, and hid them, yet",
+        "readback": {
+          "status": "review",
+          "recognized_text": "puppies , named them , and had them , yet",
+          "edit_distance": 1,
+          "character_error_rate": 0.02631578947368421,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 81,
+        "text": "even now, I wish I could forget. But I",
+        "readback": {
+          "status": "review",
+          "recognized_text": "even now , I wish I would forget . But I",
+          "edit_distance": 1,
+          "character_error_rate": 0.02631578947368421,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 82,
+        "text": "remember their wagging tails, the",
+        "readback": {
+          "status": "review",
+          "recognized_text": "remember their wagging hauls . the",
+          "edit_distance": 3,
+          "character_error_rate": 0.09090909090909091,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 84,
+        "text": "holding them in my arms. I can't call",
+        "readback": {
+          "status": "review",
+          "recognized_text": "holding them in my arm . I can't call",
+          "edit_distance": 1,
+          "character_error_rate": 0.02702702702702703,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 85,
+        "text": "those afternoons enough. But I can't",
+        "readback": {
+          "status": "review",
+          "recognized_text": "those afternoons enough . but I can't",
+          "edit_distance": 1,
+          "character_error_rate": 0.027777777777777776,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 89,
+        "text": "shop for my usual Pepsi. Outside, a",
+        "readback": {
+          "status": "review",
+          "recognized_text": "shop for my usual Pepsi . Outside . MV",
+          "edit_distance": 3,
+          "character_error_rate": 0.08571428571428572,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 91,
+        "text": "tail. I went back in for biscuits and",
+        "readback": {
+          "status": "review",
+          "recognized_text": "tail . I went back in for besuit ! and",
+          "edit_distance": 3,
+          "character_error_rate": 0.08108108108108109,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 92,
+        "text": "milk. As he ate, I petted him, knowing",
+        "readback": {
+          "status": "review",
+          "recognized_text": "milk . As he ate , I petted him ten-owning",
+          "edit_distance": 5,
+          "character_error_rate": 0.13157894736842105,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 95,
+        "text": "The old question hadn't disappeared.",
+        "readback": {
+          "status": "review",
+          "recognized_text": "The old question hadrit disappeared .",
+          "edit_distance": 2,
+          "character_error_rate": 0.05555555555555555,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 99,
+        "text": "for Blacky, Oreo, and Pie. Perhaps I",
+        "readback": {
+          "status": "review",
+          "recognized_text": "for Blackey , Oreo , and Pie . Perhaps I",
+          "edit_distance": 1,
+          "character_error_rate": 0.027777777777777776,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 111,
+        "text": "turn out all right. But I couldn't",
+        "readback": {
+          "status": "review",
+          "recognized_text": "turn out all right But I couldn't",
+          "edit_distance": 1,
+          "character_error_rate": 0.029411764705882353,
+          "numbers_match": true
+        }
+      },
+      {
+        "line": 119,
+        "text": "the Spider-Man I used to ignore. He",
+        "readback": {
+          "status": "review",
+          "recognized_text": "the Spider- Man I used to ignore . He",
+          "edit_distance": 1,
+          "character_error_rate": 0.02857142857142857,
+          "numbers_match": true
+        }
+      }
+    ],
+    "retained_diversities": {
+      "0.0": 7,
+      "0.25": 9,
+      "0.375": 18,
+      "0.5": 72
+    },
+    "note": "All lines newly synthesized with the updated sampler and fixed reference A. OCR is not human-labeled accuracy."
+  }
+}

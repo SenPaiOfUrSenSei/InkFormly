@@ -1,0 +1,21 @@
+{
+  "0.0": {
+    "total": 12,
+    "completed": 11,
+    "matching_readbacks": 0,
+    "edit_distance": 117
+  },
+  "0.5": {
+    "total": 12,
+    "completed": 11,
+    "matching_readbacks": 1,
+    "edit_distance": 100
+  },
+  "1.0": {
+    "total": 12,
+    "completed": 11,
+    "matching_readbacks": 2,
+    "edit_distance": 126
+  },
+  "limitations": "Small fixed-writer probe; blind OCR is not human legibility or writer-identity validation. No retries or render deformations."
+}

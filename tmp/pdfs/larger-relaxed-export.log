@@ -1,0 +1,36 @@
+{
+  "pdf": "/home/bifrost/Projects/InkFormly/output/pdf/DraftCollegeEssay2-handwritten-larger-relaxed.pdf",
+  "report": {
+    "pages": 7,
+    "source_text_preserved": true,
+    "source_paragraphs": 17,
+    "upright_adjustment_preserved": -18.0,
+    "previous_median_line_height_mm": 7.15582735187499,
+    "median_line_height_mm": 8.83536450951209,
+    "height_increase_percent": 23.470901057961147,
+    "start_range_mm": [
+      18.040486461571266,
+      25.27635237910941
+    ],
+    "margins_and_row_bounds_verified": true,
+    "newly_generated_intro_readbacks": [
+      {
+        "status": "match",
+        "recognized_text": "My first hero was missing",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      },
+      {
+        "status": "match",
+        "recognized_text": "half his body .",
+        "edit_distance": 0,
+        "character_error_rate": 0.0,
+        "numbers_match": true
+      }
+    ],
+    "visually_reviewed_pages": [],
+    "pdf_sha256": "78313617b505a41d6e178d7959a4b5accea1c87ca647acc2693cc9ca938279df",
+    "note": "All previously reviewed takes are retained except the opening sentence, newly synthesized as two lines. Whole lines are fitted independently; no glyphs were replaced."
+  }
+}

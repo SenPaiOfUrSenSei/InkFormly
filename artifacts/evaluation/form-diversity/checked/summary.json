@@ -1,0 +1,15 @@
+{
+  "0.0": {
+    "lines": 6,
+    "matches": 3,
+    "edit_distance": 6,
+    "seconds": 85.52516441199805
+  },
+  "0.5": {
+    "lines": 6,
+    "matches": 4,
+    "edit_distance": 6,
+    "seconds": 92.99600686400117
+  },
+  "limitations": "Six development sentences, one seed, same writer primer. Selected OCR is not an independent test of readability, writer identity or human likeness. No render augmentation."
+}

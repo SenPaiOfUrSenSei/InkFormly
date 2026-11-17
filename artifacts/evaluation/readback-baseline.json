@@ -1,0 +1,27 @@
+[
+  {
+    "requested": "Natural handwriting has rhythm and variation. Every letter",
+    "recognized": "Natural handwriting has rhythm and variation . Every letter",
+    "seconds": 1.3367268000001786
+  },
+  {
+    "requested": "should feel a little different.",
+    "recognized": "should feel a little different .",
+    "seconds": 1.041340562995174
+  },
+  {
+    "requested": "Small details make a page feel personal: the space between",
+    "recognized": "small details make a page feel personal ! the space between",
+    "seconds": 1.3353819090043544
+  },
+  {
+    "requested": "words, the curve of a letter, and the way the ink meets the",
+    "recognized": "words , there curve of a letter , and the way the ink hurts the",
+    "seconds": 1.5676587740017567
+  },
+  {
+    "requested": "paper.",
+    "recognized": "paper .",
+    "seconds": 0.8327497029968072
+  }
+]

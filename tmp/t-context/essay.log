@@ -1,0 +1,83 @@
+Checked 0/77 lines with internal t
+Checked 1/77 lines with internal t
+Checked 2/77 lines with internal t
+Checked 3/77 lines with internal t
+Checked 4/77 lines with internal t
+Checked 5/77 lines with internal t
+Checked 6/77 lines with internal t
+Checked 7/77 lines with internal t
+Checked 8/77 lines with internal t
+Checked 10/77 lines with internal t
+Checked 11/77 lines with internal t
+Checked 12/77 lines with internal t
+Checked 13/77 lines with internal t
+Checked 14/77 lines with internal t
+Checked 15/77 lines with internal t
+Checked 17/77 lines with internal t
+Checked 18/77 lines with internal t
+Checked 19/77 lines with internal t
+Checked 20/77 lines with internal t
+Checked 21/77 lines with internal t
+Checked 22/77 lines with internal t
+Checked 23/77 lines with internal t
+Checked 24/77 lines with internal t
+Checked 25/77 lines with internal t
+Checked 27/77 lines with internal t
+Checked 29/77 lines with internal t
+Checked 31/77 lines with internal t
+Checked 32/77 lines with internal t
+Checked 33/77 lines with internal t
+Checked 34/77 lines with internal t
+Checked 35/77 lines with internal t
+Checked 36/77 lines with internal t
+Checked 37/77 lines with internal t
+Checked 38/77 lines with internal t
+Checked 39/77 lines with internal t
+Checked 40/77 lines with internal t
+Checked 41/77 lines with internal t
+Checked 42/77 lines with internal t
+Checked 43/77 lines with internal t
+Checked 45/77 lines with internal t
+Checked 46/77 lines with internal t
+Checked 48/77 lines with internal t
+Checked 49/77 lines with internal t
+Checked 50/77 lines with internal t
+Checked 51/77 lines with internal t
+Checked 52/77 lines with internal t
+Checked 53/77 lines with internal t
+Checked 55/77 lines with internal t
+Checked 56/77 lines with internal t
+Checked 57/77 lines with internal t
+Checked 58/77 lines with internal t
+Checked 59/77 lines with internal t
+Checked 60/77 lines with internal t
+Checked 61/77 lines with internal t
+Checked 62/77 lines with internal t
+Checked 63/77 lines with internal t
+Checked 64/77 lines with internal t
+Checked 65/77 lines with internal t
+Checked 67/77 lines with internal t
+Checked 68/77 lines with internal t
+Checked 69/77 lines with internal t
+Checked 70/77 lines with internal t
+Checked 71/77 lines with internal t
+Checked 72/77 lines with internal t
+Checked 73/77 lines with internal t
+Checked 74/77 lines with internal t
+Checked 75/77 lines with internal t
+Checked 76/77 lines with internal t
+Checked 77/77 lines with internal t
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/bifrost/Projects/InkFormly/scripts/refine_essay_words.py", line 108, in <module>
+    if done!=last:print(f'Checked {done}/{len(indices)} lines with internal t',flush=True);last=done
+                    ^^^^^^
+  File "/home/bifrost/Projects/InkFormly/scripts/refine_essay_words.py", line 105, in main
+    last=-1
+  File "/home/bifrost/Projects/InkFormly/scripts/refine_essay_words.py", line 56, in compose
+    doc.generation_seconds+=max(0.,line.seconds-doc.lines[index].seconds)
+                                   ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+  File "/home/bifrost/Projects/InkFormly/inkform/generator.py", line 191, in quality_warnings
+    from .word_clarity import line_word_review
+ImportError: cannot import name 'line_word_review' from 'inkform.word_clarity' (/home/bifrost/Projects/InkFormly/inkform/word_clarity.py)

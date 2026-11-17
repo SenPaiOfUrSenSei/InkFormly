@@ -1,0 +1,10 @@
+Some weights of VisionEncoderDecoderModel were not initialized from the model checkpoint at /home/bifrost/Projects/InkFormly/models/trocr-small-handwritten and are newly initialized: ['encoder.pooler.dense.bias', 'encoder.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+river 42 in ver-
+river 509 rep ! Wer .
+around 42 tranquil , e
+failed around 509
+failed friend 42
+friend 509 endorsement
+failed hero 42
+failed hero 509

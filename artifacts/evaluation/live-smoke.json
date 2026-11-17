@@ -1,0 +1,14 @@
+{
+  "base_url": "http://127.0.0.1:8000",
+  "model": "Graves \u00b7 Epoch 52",
+  "generation_id": "410c6234e8454ed796ae1ef224f93663",
+  "render_id": "e543d8781e1442229d370491b9d94c16",
+  "export_id": "eb88149c10284ffc87c5eeb054fbb448",
+  "pages": 1,
+  "generation_seconds": 29.940595971998846,
+  "text_characters": 217,
+  "trajectories_unchanged_after_ink_edit": true,
+  "trajectory_sha256": "98143d67aeb1370deceda64b48db87801aa7c2239539c565560fa33d9a047b15",
+  "pdf_bytes": 256739,
+  "png_zip_bytes": 253516
+}

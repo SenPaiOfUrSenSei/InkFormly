@@ -1,0 +1,5 @@
+Some weights of VisionEncoderDecoderModel were not initialized from the model checkpoint at /home/bifrost/Projects/InkFormly/models/trocr-small-handwritten and are newly initialized: ['encoder.pooler.dense.bias', 'encoder.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+ids tensor([[   0, 2372,    2]]) generated tensor([[   2, 2372,    2]]) vocab ['<s>', '▁stayed', '</s>'] ['</s>', '▁stayed', '</s>']
+decoder tensor([[   2,    0, 2372]]) top tensor([[2372,   13,   13]]) CE tensor(17.9545) shifted tensor(0.8021)
+decoder tensor([[   0,    0, 2372]]) top tensor([[13, 13, 13]]) CE tensor(14.6511) shifted tensor(10.4677)

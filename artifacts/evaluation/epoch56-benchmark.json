@@ -1,0 +1,42 @@
+{
+  "checkpoint": "epoch56",
+  "torch": "2.15.0+cpu",
+  "threads": 1,
+  "load_seconds": 0.10463913600142405,
+  "parameters": 3764151,
+  "peak_rss_mb": 306.16796875,
+  "samples": [
+    {
+      "bias": 0.5,
+      "seed": 42,
+      "seconds": 7.041707439000675,
+      "points": 3808,
+      "attention_last_index": 46,
+      "text_length": 47
+    },
+    {
+      "bias": 0.8,
+      "seed": 42,
+      "seconds": 2.300374774999,
+      "points": 1397,
+      "attention_last_index": 45,
+      "text_length": 47
+    },
+    {
+      "bias": 1.1,
+      "seed": 42,
+      "seconds": 6.590742104999663,
+      "points": 4000,
+      "attention_last_index": 29,
+      "text_length": 47
+    },
+    {
+      "bias": 0.8,
+      "seed": 43,
+      "seconds": 2.167618749999747,
+      "points": 1333,
+      "attention_last_index": 46,
+      "text_length": 47
+    }
+  ]
+}
